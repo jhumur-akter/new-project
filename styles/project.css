@@ -8,7 +8,7 @@ body{
     background-image: url(/images/header_bg.png) , url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right ,left;
-    background-size: 600px , 80gipx;
+    background-size: 600px , 80px;
    
 }
 .main-title{
