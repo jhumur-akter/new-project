@@ -1,0 +1,81 @@
+body{
+    
+  font-family: "Open Sans", sans-serif;
+  
+}
+.header{
+    background-color: #FFF8F3;
+}
+.main-title{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-primary{
+    color: orangered ;
+}
+
+.nav-title {
+    font-weight: 800;
+    color: black;
+    font-size: 45px;
+
+}
+.btn-primary{
+    border-radius: 5px;
+    border: 0;
+    background-color: orangered;
+    font-weight: 700;
+    color: white;
+    padding: 20px 35px;
+    
+    
+    
+
+}
+
+nav 
+{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 0 200px;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+     justify-content: space-between;
+     color: #474747;
+    
+}
+
+.nav-secondary{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+   
+ list-style: none;
+
+}
+.btn-secondary{
+    color: orangered;
+    border-radius: 5px;
+ border-color: orangered;
+ border: 1px solid;
+ font-weight: 700;
+ padding: 20px 35px;
+ margin-left: 20px;
+}
+.marry-hardy{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 200px;
+    align-items: center;
+}
+.banner-heading{
+    
+
+}
+.main-img{
+    height: 500px
+    width: 20px;
+}
