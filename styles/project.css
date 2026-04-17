@@ -5,6 +5,11 @@ body{
 }
 .header{
     background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+   
 }
 .main-title{
     justify-content: space-between;
@@ -38,7 +43,7 @@ nav
 {
     display: flex;
     background-color: #FFF8F3;
-    padding: 0 200px;
+    margin: 0 200px;
 }
 a {
     text-decoration: none;
@@ -68,14 +73,76 @@ a {
 .marry-hardy{
     display: flex;
     justify-content: space-between;
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
     align-items: center;
 }
 .banner-heading{
-    
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-details{
+    margin-bottom: 20px;
+    font-size: 18px; 
 
 }
 .main-img{
-    height: 500px
-    width: 20px;
+    height: 500px;
+    
+}
+/* about me section */
+.about-me{
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 200px;
+    padding: 150px;
+    margin-top: 50px;
+}
+.me-title{ 
+    font-size: 45px;
+    font-weight: 700;
+}
+.me-description{
+    font-size:18px ;
+    color: #474747;
+}
+.title-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    
+}
+.name{
+    color: #474747;
+    font-size: small;
+    margin: 0px;
+}
+.details-hub{
+    font-size: medium;
+    margin: 0px;
+}
+/* what i do section */
+.what-i-do-section{
+    text-align: center;
+    margin:100px  350px;
+    
+}
+.what-heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.what-title{
+    font-size: 18px;
+    color: #474747;
 }
