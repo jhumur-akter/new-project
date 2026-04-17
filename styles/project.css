@@ -146,3 +146,51 @@ a {
     font-size: 18px;
     color: #474747;
 }
+/* icon section */
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px  200px;
+    gap: 20px;
+    
+}
+.icon-main{
+    background-color: white;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 50px;
+    box-shadow: 0px 6px 50px 0px #474747;
+}
+.icon-details{
+    font-size:small;
+    color: #474747;
+}
+/* resume section */
+.resume-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 50px 0px;
+}
+.resume-heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.resume-section{
+    margin: 200px;
+    align-items: center;
+}
+
+.btn-3rd{
+    align-items: center;
+    justify-content: center;
+     border-radius: 5px;
+    border: 0;
+    background-color: orangered;
+    font-weight: 700;
+    color: white;
+    padding: 20px 35px;
+    margin-left: 450px;
+}
